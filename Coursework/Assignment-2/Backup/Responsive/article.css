@@ -1,0 +1,21 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+
+.header{
+    background-color:antiquewhite;
+}
+
+.content{
+    padding: 3%;
+}
+
+.related-news{
+    width:100px;
+}
+
+.header-break{
+    width:75vw
+}
+
+
+

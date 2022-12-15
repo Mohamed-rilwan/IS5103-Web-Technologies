@@ -1,0 +1,26 @@
+.bottom-news {
+    background-color: rgb(197, 136, 130);
+    max-width: 75vw;
+    padding: 10%;
+}
+
+.home-container {
+    margin: 3% 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    margin: 2%;
+    padding-bottom: 5%;
+    height: 28em;
+}
+
+.satelitte-video{
+    width:1000px
+}

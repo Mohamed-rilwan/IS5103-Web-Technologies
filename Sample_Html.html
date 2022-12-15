@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!-- Setting primary language of the Document -->
+<!-- Code representation for all lanaguages is given in https://en.wikipedia.org/wiki/ISO_639-1 -->
+<html lang="en" char>
+
+<!-- Head : Contains tags with information about the current page
+Not displayed on page -->
+
+<head>
+
+    <!-- Meta: contains the information about encoding, Author, description, copyright, viewport -->
+    <!-- Character set utf-8 can render english and japanese perfectly, but might break for latin -->
+    <meta charset="UTF-8" name="description" property="og:image"
+        content="https://developer.mozilla.org/static/img/opengraph-logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- This appears on the tab name and also when bookmarking -->
+    <title>Document</title>
+
+    <!-- Adding faviorte icon to the HTML -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- third-generation iPad with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144"
+        href="https://developer.mozilla.org/static/img/favicon144.png" />
+
+    <!-- Link to external stylesheer CSS -->
+    <link rel="stylesheet" href="SampleStyle.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Main page heading here</h1>
+        <p>Posted by John Doe</p>
+    </header>
+
+    <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+    <input type="search" id="name" name="name" required minlength="4" maxlength="8" size="10">
+
+
+    <!-- Unordered list -->
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <!-- Ordered list -->
+
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!-- Description list -->
+    <!-- <dl> tag defines the description list -->
+    <dl>
+        <!-- <dt> tag defines the term (name) -->
+        <dt>Coffee</dt>
+        <!-- <dd> tag describes each term: -->
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+
+    <!-- Tables -->
+
+    <table>
+        <caption> Caption to describe the contents of the table
+            <!-- The <colgroup> tag specifies a group of one or more columns in a table for formatting. -->
+            <!-- The <colgroup> tag must be a child of a <table> element, after any <caption> elements and before any <thead>, <tbody>, <tfoot>, and <tr> elements. -->
+        <colgroup>
+            <!-- The <col> tag specifies column properties for each column within a <colgroup> element. -->
+            <!-- The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row. -->
+            <col span="1" style="background-color:red">
+            <col span="1" style="background-color:purple">
+            <col style="background-color:yellow">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Centro comercial Moctezuma</td>
+                <td>Francisco Chang</td>
+                <td>Mexico</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td>$180</td>
+                <td>100</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!-- Anchor tag -->
+    <a href="http:\\google.com">Google</a>
+
+    <!-- Image tag -->
+    <!-- Image can be floated using the css float, The style takes precendence -->
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Girl in a jacket" width="100" height="100"
+        style="float:left;width:42px;height:42px;">
+
+    <!-- Link as image -->
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+    </a>
+
+    <!-- Aside tag - The following example shows how an aside is used to mark up background material on Switzerland in a much longer news story on Europe. -->
+    <aside>
+        <!-- Usually contains a header -->
+        <h1>Switzerland</h1>
+        <p>Switzerland, a land-locked country in the middle of geographic
+            Europe, has not joined the geopolitical European Union, though it is
+            a signatory to a number of European treaties.</p>
+    </aside>
+
+
+    <address>
+        <a href="../People/Raggett/">Dave Raggett</a>,
+        <a href="../People/Arnaud/">Arnaud Le Hors</a>,
+        contact persons for the <a href="Activity">W3C HTML Activity</a>
+    </address>
+
+
+
+    <!-- The hgroup element represents the heading of a section. The element is used to group a set of h1–h6 elements when the heading has multiple levels, such as subheadings, alternative titles, or taglines. -->
+    <hgroup>
+        <h1>The reality dysfunction</h1>
+        <h2>Space is not the only void</h2>
+    </hgroup>
+
+
+    <!-- Use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo: -->
+    <figure>
+        <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+
+
+    <!-- The cite element represents the title of a work (e.g. a book, a paper, 
+        an essay, a poem, a score, a song, a script, a film, a TV show, a game,
+         a sculpture, a painting, a theatre production, a play, an opera, a musical,
+          an exhibition, a legal case report, a computer program, etc.). 
+          This can be a work that is being quoted or referenced in detail (i.e., a citation), or it can just be a work that is mentioned in passing. -->
+    <p>My favorite book is <cite>The Reality Dysfunction</cite> by
+        Peter F. Hamilton. My favorite comic is <cite>Pearls Before
+            Swine</cite> by Stephan Pastis. My favorite track is <cite>Jive
+            Samba</cite> by the Cannonball Adderley Sextet.</p>
+
+
+
+
+    <img srcset="https://www.w3schools.com/images/w3schools_green.jpg 480w,
+    https://images.pexels.com/photos/14683610/pexels-photo-14683610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1 800w"
+     sizes="(max-width: 600px) 480px, 800px"
+        src=“my-image-800w.jpg”, alt=“My image”>
+
+</body>
+
+
+</html>

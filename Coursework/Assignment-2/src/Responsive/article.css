@@ -1,0 +1,31 @@
+.header{
+    background-color:antiquewhite;
+}
+
+.content{
+    padding: 3%;
+}
+
+.related-news{
+    width:100px;
+}
+
+.header-break{
+    width:75vw
+}
+
+.related-article{
+    width:20vw;
+    padding-left: 0px;
+}
+
+
+.article-us h1 {
+    color: #3aaf78;
+    white-space: inherit;
+}
+
+.article-video{
+    width:50vw;
+    height:50vh;
+}

@@ -1,0 +1,26 @@
+
+.navbar-custom{
+    background-color: black !important;
+    min-height: 15vh;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+
+}
+
+.logo-title {
+    white-space: break-spaces;
+    color:white;
+    font-size: 2em;
+}
+
+
+.row{
+    margin-right:0px;
+}
+
+.row.content{
+    margin-right:0px;
+}

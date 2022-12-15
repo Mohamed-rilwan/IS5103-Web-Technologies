@@ -1,0 +1,109 @@
+
+.navbar-custom{
+    background-color: black !important;
+    min-height: 15vh;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+
+}
+
+.logo-title {
+    white-space: break-spaces;
+    color:white;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+/* Article Us Section Start */
+
+
+
+.article-us h1 {
+    color: #3aaf78;
+    white-space: inherit;
+}
+
+
+
+
+/* article Us Section end */
+
+
+
+/*Contact us section start */
+
+.loacation {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.loacation iframe {
+    width: 100%;
+}
+
+.contact-us {
+
+    width: 80%;
+    margin: 5%;
+    position: relative;
+    left: 25%;
+}
+
+.content-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.content-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.content-col div .fa {
+    font-size: 28px;
+    color: #24f8c7;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.content-col div p {
+    padding: 0;
+}
+
+.content-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.content-col input,
+.content-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    position: relative;
+    left: 35%;
+}
+
+/*Contact us section end */
